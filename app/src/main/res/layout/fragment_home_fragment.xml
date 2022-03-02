@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Fragment.Home"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_gravity="center"
+        android:id="@+id/login_lottie_view"
+        android:transitionName="lottie_person"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:padding="15dp"
+        android:layout_marginBottom="5dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/user" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/unit_test_cv"
+                android:layout_width="140dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="74dp"
+                        android:layout_height="74dp"
+                        android:background="@drawable/backgroundpurple"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_assignment_white_48dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/unit_test"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lineSpacingExtra="2dp"
+                        android:padding="5dp"
+                        android:text="@string/edit_and_submit_mark_n_and_more"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/semester_cv"
+                android:layout_width="140dp"
+                android:layout_height="170dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="74dp"
+                        android:layout_height="74dp"
+                        android:background="@drawable/backgroundyello"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_assignment_turned_in_white_48dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/semester"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="3dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:lineSpacingExtra="2dp"
+                        android:padding="5dp"
+                        android:text="@string/check_progress_n_result_s_and_more"
+                        android:textColor="@android:color/darker_gray" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/student_database_cv"
+            android:layout_width="140dp"
+            android:layout_height="170dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:background="@drawable/backgroundgreen"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_description_white_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/student_database"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:padding="5dp"
+                    android:text="@string/view_and_update_student_database"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/analytics_cv"
+            android:layout_width="140dp"
+            android:layout_height="170dp"
+            android:layout_margin="10dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:background="@drawable/backgroundpink"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_assessment_white_48dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/analysis"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@color/lightgray" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:lineSpacingExtra="2dp"
+                    android:padding="5dp"
+                    android:text="@string/measure_activity_and_more"
+                    android:textColor="@android:color/darker_gray" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+    </LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    tools:context=".UI.Fragment.StudentDatabase">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layoutHead"
+        android:background="#0277BD"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layoutHeadSize">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/image_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            app:lottie_rawRes="@raw/user"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+        <TextView
+            android:text="Department Computer"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/image_view"
+            android:enabled="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+        <LinearLayout
+            android:animateLayoutChanges="true"
+            android:overScrollMode="always"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:id="@+id/layoutSelectSubject"
+            android:padding="20dp"
+            android:layout_below="@id/layoutHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="match_parent">
+
+                        <com.google.android.material.textview.MaterialTextView
+                             android:text="2018"
+                             android:textSize="17sp"
+                            android:layout_gravity="center"
+                             android:textColor="@color/b"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"/>
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/fy2018"
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="60dp"
+                            android:clickable="true"
+                            android:text="@string/fy_computer"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:focusable="true" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/sy2018"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                            android:clickable="true"
+                            android:layout_marginHorizontal="60dp"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:text="@string/sy_computer"
+                            android:focusable="true" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/ty2018"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                            android:clickable="true"
+                            android:textAlignment="center"
+                            android:layout_marginHorizontal="60dp"
+                            android:textSize="20sp"
+                            android:text="@string/ty_computer"
+                            android:focusable="true" />
+
+                        <com.google.android.material.textview.MaterialTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="2019"
+                            android:textColor="@color/b"
+                            android:textSize="17sp" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/fy2019"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                            android:clickable="true"
+                            android:layout_marginHorizontal="60dp"
+                            android:text="@string/fy_computer"
+                            android:textSize="20sp"
+                            android:focusable="true" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/sy2019"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                            android:layout_marginHorizontal="60dp"
+                            android:textAlignment="center"
+                            android:clickable="true"
+                            android:textSize="20sp"
+                            android:text="@string/sy_computer"
+                            android:focusable="true" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/ty2019"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                            android:clickable="true"
+                            android:layout_marginHorizontal="60dp"
+                            android:textAlignment="center"
+                            android:textSize="20sp"
+                            android:text="@string/ty_computer"
+                            android:focusable="true" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </ScrollView>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

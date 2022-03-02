@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UI.Fragment.AddNewStudent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/layoutHead"
+            android:background="#0277BD"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layoutHeadSize">
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/image_view"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                app:lottie_rawRes="@raw/user"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+            <TextView
+                android:text="@string/edit_student_info"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/image_view"
+                android:enabled="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:animateLayoutChanges="true"
+            android:overScrollMode="always"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:padding="20dp"
+            android:layout_below="@id/layoutHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

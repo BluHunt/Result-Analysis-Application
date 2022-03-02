@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.example.ra.UI.Fragment.Home"
+        android:label="Home"
+        tools:layout="@layout/fragment_home_fragment" >
+        <action
+            android:id="@+id/STDB"
+            app:destination="@id/studentDatabase" />
+        <action
+            android:id="@+id/ToSemester"
+            app:destination="@id/semester" />
+        <action
+            android:id="@+id/ToUT"
+            app:destination="@id/unitTest" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile_fragment"
+        android:name="com.example.ra.UI.Fragment.Profile"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile_fragment" >
+        <action
+            android:id="@+id/actionVerifyPhone"
+            app:destination="@id/verifyPhoneFragment" />
+        <action
+            android:id="@+id/actionUpdatePassword"
+            app:destination="@id/updatePasswordFragment" />
+        <action
+            android:id="@+id/actionUpdateEmail"
+            app:destination="@id/updateEmailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/users_fragment"
+        android:name="com.example.ra.UI.Fragment.UserList"
+        android:label="Users"
+        tools:layout="@layout/fragment_user_list" >
+        <action
+            android:id="@+id/NewUserAdd"
+            app:destination="@id/addNewUser" />
+        <action
+            android:id="@+id/AssignSubject"
+            app:destination="@id/assignSubjectToTeacher" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewUser"
+        android:name="com.example.ra.UI.Fragment.AddNewUser"
+        android:label="Add New User"
+        tools:layout="@layout/fragment_add_new_user">
+        <action
+            android:id="@+id/NewUserAdded"
+            app:destination="@id/users_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/verifyPhoneFragment"
+        android:name="com.example.ra.UI.Fragment.VerifyPhoneFragment"
+        android:label="Verify Phone"
+        tools:layout="@layout/fragment_verify_phone">
+        <action
+            android:id="@+id/actionPhoneVerified"
+            app:destination="@id/profile_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updatePasswordFragment"
+        android:name="com.example.ra.UI.Fragment.UpdatePasswordFragment"
+        android:label="Update Password"
+        tools:layout="@layout/fragment_update_password" >
+        <action
+            android:id="@+id/actionPasswordUpdated"
+            app:destination="@id/profile_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateEmailFragment"
+        android:name="com.example.ra.UI.Fragment.UpdateEmailFragment"
+        android:label="Update Email"
+        tools:layout="@layout/fragment_update_email">
+        <action
+            android:id="@+id/actionEmailUpdated"
+            app:destination="@id/profile_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/assignSubjectToTeacher"
+        android:name="com.example.ra.UI.Fragment.AssignSubjectToTeacher"
+        android:label="Assign Subject"
+        tools:layout="@layout/fragment_assign_subject_to_teacher">
+        <action
+            android:id="@+id/SubjectAssigned"
+            app:destination="@id/users_fragment" />
+        <argument
+            android:name="uid"
+            app:argType="string"
+            android:defaultValue="default" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentDatabase"
+        android:name="com.example.ra.UI.Fragment.StudentDatabase"
+        android:label="Student Database"
+        tools:layout="@layout/fragment_student_database" >
+        <action
+            android:id="@+id/STDBViewed"
+            app:destination="@id/home_fragment" />
+        <action
+            android:id="@+id/ViewList"
+            app:destination="@id/SDB" />
+    </fragment>
+    <fragment
+        android:id="@+id/SDB"
+        android:name="com.example.ra.UI.Fragment.SDB"
+        android:label="2018 SY COMPUTER"
+        tools:layout="@layout/fragment_sdb">
+        <action
+            android:id="@+id/action_SDB_to_studentDatabase"
+            app:destination="@id/studentDatabase" />
+        <argument
+            android:name="year_in_w"
+            app:argType="string"
+            android:defaultValue="default" />
+        <argument
+            android:name="year_in_n"
+            app:argType="string"
+            android:defaultValue="default" />
+        <action
+            android:id="@+id/ToEdit"
+            app:destination="@id/editStudentInfo" />
+        <action
+            android:id="@+id/AddNS"
+            app:destination="@id/addNewStudent" />
+    </fragment>
+    <fragment
+        android:id="@+id/semester"
+        android:name="com.example.ra.UI.Fragment.Semester"
+        android:label="Semester"
+        tools:layout="@layout/fragment_semester">
+        <action
+            android:id="@+id/ToHome"
+            app:destination="@id/home_fragment" />
+        <action
+            android:id="@+id/ToNewAnalysis"
+            app:destination="@id/newAnalysis" />
+    </fragment>
+    <fragment
+        android:id="@+id/addNewStudent"
+        android:name="com.example.ra.UI.Fragment.AddNewStudent"
+        android:label="Add New Information"
+        tools:layout="@layout/fragment_add_new_student">
+        <action
+            android:id="@+id/ToBackSDB"
+            app:destination="@id/SDB" />
+        <argument
+            android:name="year_n"
+            app:argType="string"
+            android:defaultValue="null" />
+        <argument
+            android:name="year_w"
+            app:argType="string"
+            android:defaultValue="null" />
+    </fragment>
+    <fragment
+        android:id="@+id/editStudentInfo"
+        android:name="com.example.ra.UI.Fragment.EditStudentInfo"
+        android:label="Update Information"
+        tools:layout="@layout/fragment_edit_student_info">
+        <action
+            android:id="@+id/ToBack"
+            app:destination="@id/SDB" />
+        <argument
+            android:name="year_n"
+            app:argType="string"
+            android:defaultValue="0000" />
+        <argument
+            android:name="year_w"
+            app:argType="string"
+            android:defaultValue="EMPTY" />
+        <argument
+            android:name="sid"
+            app:argType="string"
+            android:defaultValue="123456" />
+    </fragment>
+    <fragment
+        android:id="@+id/unitTest"
+        android:name="com.example.ra.UI.Fragment.UnitTest"
+        android:label="Unit Test"
+        tools:layout="@layout/fragment_unit_test" >
+        <action
+            android:id="@+id/BackHome"
+            app:destination="@id/home_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newAnalysis"
+        android:name="com.example.ra.UI.Fragment.NewAnalysis"
+        android:label="New Analysis"
+        tools:layout="@layout/fragment_new_analysis">
+        <action
+            android:id="@+id/ToBack"
+            app:destination="@id/semester" />
+    </fragment>
+</navigation>

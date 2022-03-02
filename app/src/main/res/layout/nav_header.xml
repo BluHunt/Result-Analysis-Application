@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="12dp"
+    android:layout_height="170dp"
+    android:background="@drawable/back3">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginLeft="-3dp"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="30dp"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/avatar" />
+
+    <TextView
+        android:layout_marginTop="105dp"
+        android:id="@+id/header_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:text="Abhishek Mane"
+        android:textColor="@color/w" />
+
+
+    <TextView
+        android:layout_marginTop="130dp"
+        android:id="@+id/header_useremail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="maneabhishek85@gmail.com"
+        android:textColor="@color/w" />
+
+</RelativeLayout>

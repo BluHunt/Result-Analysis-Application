@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Fragment.Profile"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/layoutHead"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layoutHeadSize"
+            android:background="#0277BD">
+
+            <ImageView
+                android:id="@+id/profile_user_image"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="40dp"
+                android:radius="50dp"
+                android:src="@drawable/userphoto" />
+
+            <ProgressBar
+                android:visibility="invisible"
+                android:id="@+id/profile_user_image_pb"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="60dp" />
+
+            <TextView
+                android:id="@+id/profile_user_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_user_image"
+                android:layout_centerHorizontal="true"
+                android:enabled="true"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/b" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:id="@+id/layoutVerification"
+            android:padding="16dp"
+            android:layout_below="@id/layoutHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <EditText
+                android:layout_gravity="center_horizontal"
+                android:textSize="18dp"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:backgroundTint="@color/b"
+                android:textColor="@color/b"
+                android:id="@+id/profile_user_name"
+                android:text="Abhishek Mane"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="15dp"
+                android:textSize="18dp"
+                android:backgroundTint="@color/b"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/b"
+                android:id="@+id/profile_user_email"
+                android:text="maneabhishek33@gmail.com"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:visibility="visible"
+                android:id="@+id/profile_email_verification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textColor="@color/r"
+                android:textSize="14dp"
+                android:text="@string/not_verfied_click_to_verify" />
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/ic_phone"
+                android:backgroundTint="@color/b"
+                android:textColor="@color/b"
+                android:id="@+id/profile_user_phno"
+                android:text="+919168639392"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:textSize="18dp"
+                android:drawablePadding="15dp"
+                android:drawableLeft="@drawable/ic_key"
+                android:backgroundTint="@color/b"
+                android:textColor="@color/b"
+                android:id="@+id/profile_user_forget_password"
+                android:text="Change Password"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ProgressBar
+                android:visibility="invisible"
+                android:id="@+id/profile_progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/profile_savechanges"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Save Changes"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/fr"
+                android:layout_marginHorizontal="70dp"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
+
+

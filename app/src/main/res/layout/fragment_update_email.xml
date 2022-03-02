@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    tools:context=".UI.Fragment.UpdateEmailFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/layoutHead"
+            android:background="#0277BD"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layoutHeadSize">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/image_view"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                app:lottie_rawRes="@raw/user"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+
+            <TextView
+                android:text="Update Email"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/image_view"
+                android:enabled="true"
+                android:id="@+id/edit_text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:animateLayoutChanges="true"
+            android:id="@+id/layoutPassword"
+            android:padding="16dp"
+            android:visibility="invisible"
+            android:layout_below="@id/layoutHead"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_marginBottom="15dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:text="To change email you need to enter your password again"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/cyan"
+                android:layout_height="wrap_content"
+                app:endIconMode="password_toggle"
+                android:hint="Password">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_text_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:textAllCaps="false"
+                android:text="Authenticate"
+                android:backgroundTint="@color/fr"
+                android:id="@+id/button_authenticate"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:id="@+id/layoutUpdateEmail"
+            android:padding="16dp"
+            android:layout_below="@id/layoutHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/cyan"
+                android:layout_height="wrap_content"
+                android:hint="New Email">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_text_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"
+                android:textAllCaps="false"
+                android:text="Update"
+                android:backgroundTint="@color/fr"
+                android:id="@+id/button_update"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:visibility="invisible"
+            android:id="@+id/progressbar"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    tools:context=".UI.Fragment.AddNewUser">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/layoutHead"
+            android:background="#0277BD"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layoutHeadSize">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/image_view"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                app:lottie_rawRes="@raw/user"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+
+            <TextView
+                android:text="Add User Account"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/image_view"
+                android:enabled="true"
+                android:id="@+id/edit_text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:id="@+id/layoutUpdateEmail"
+            android:padding="16dp"
+            android:layout_below="@id/layoutHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:hint="Username">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nuname"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPersonName"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:hint="Email">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nuemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:helperTextEnabled="true"
+                app:helperTextTextColor="@color/b"
+                app:helperText="*password shuold be greater than 8 character"
+                android:layout_marginTop="10dp"
+                android:hint="Password">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/nupassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/nurole"
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                android:layout_marginTop="10dp"
+                android:prompt="@string/r"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:entries="@array/roles" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/new_user_add_btn"
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="50dp"
+                app:backgroundTint="@color/fr"
+                android:layout_height="wrap_content"
+                android:text="Create" />
+
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/pb"
+            android:visibility="invisible"
+            android:layout_marginTop="490dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</FrameLayout>
