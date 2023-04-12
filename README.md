@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://github.com/BluHunt/Result-Analysis-Application/blob/main/screenshots/RAA%20LOGO.jpg" width="300" height="300">
+</div>
+
 # Result Analysis Application
 
 Result Analysis Application is an Android app developed using Java and Kotlin that helps in analyzing and visualizing academic results. The app provides various features like result comparison, graphical representation of results, subject-wise performance analysis, and more, to help students and teachers gain insights from academic results.
