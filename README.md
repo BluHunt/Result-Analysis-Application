@@ -48,8 +48,7 @@ This project is released under the [MIT License].
 
 - [Charts library](https://github.com/PhilJay/MPAndroidChart) - Used for creating graphical charts in the app.
 - [Material Design Icons](https://materialdesignicons.com/) - Used for icons in the app.
-
-# Sorry if i miss any acknowledgements and let me know
+#### Please let me know if I missed any acknowledgements, and I will be happy to update them accordingly.
 
 ## Contact
 
