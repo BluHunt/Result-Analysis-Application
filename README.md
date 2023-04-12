@@ -49,6 +49,8 @@ This project is released under the [MIT License].
 - [Charts library](https://github.com/PhilJay/MPAndroidChart) - Used for creating graphical charts in the app.
 - [Material Design Icons](https://materialdesignicons.com/) - Used for icons in the app.
 
+# Sorry if i miss any acknowledgements and let me know
+
 ## Contact
 
 For any questions or suggestions, feel free to contact the project owner at resultanalysisapp@gmail.com.
