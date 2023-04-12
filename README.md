@@ -7,17 +7,17 @@
 Result Analysis Application is an Android app developed using Java and Kotlin that helps in analyzing and visualizing academic results. The app provides various features like result comparison, graphical representation of results, subject-wise performance analysis, and more, to help students and teachers gain insights from academic results.
 
 ## Features
-- Information about various users.
-- Information about various students.
-- Information about subjects offered in various semesters.
-- Result comparison: Compare results across different exams or semesters to track progress.
-- Subject-wise performance analysis: Analyze performance in individual subjects to identify strengths and weaknesses.
-- User-friendly interface: Easy-to-navigate interface with intuitive controls for a seamless user experience.
-- Marks obtained by students in different semesters.
-- Marks obtained by students in different unit tests.
-- Generation of reports.
-- Graphical representation: View results in graphical charts for better visualization and analysis.
-- Real-time database fetching and saving using Firebase.
+- Information about various users: Provides information about different users in the system.
+- Information about various students: Offers details about different students enrolled in the system.
+- Information about subjects offered in various semesters: Displays information about subjects offered in different semesters of a course.
+- Result comparison: Allows comparison of results across different exams or semesters to track progress.
+- Subject-wise performance analysis: Provides analysis of performance in individual subjects to identify strengths and weaknesses.
+- User-friendly interface: Offers an easy-to-navigate interface with intuitive controls for a seamless user experience.
+- Marks obtained by students in different semesters: Displays marks obtained by students in different semesters of a course.
+- Marks obtained by students in different unit tests: Provides marks obtained by students in different unit tests conducted.
+- Generation of reports: Generates reports summarizing the performance of students in exams or unit tests.
+- Graphical representation: Offers graphical charts for better visualization and analysis of exam or unit test results.
+- Real-time database fetching and saving using Firebase: Utilizes Firebase to fetch and save data in real-time from and to a database.
 
 
 ## Technologies Used
