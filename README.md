@@ -18,22 +18,6 @@ Result Analysis Application is an Android app developed using Java and Kotlin th
 - Generation of reports.
 - Graphical representation: View results in graphical charts for better visualization and analysis.
 - Real-time database fetching and saving using Firebase.
-- 
-## Screenshots
-Here are some screenshots of the project:
-
-| Screenshot 1 | Screenshot 2 | Screenshot 3 | Screenshot 4 | Screenshot 5 | Screenshot 6 |
-|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-| <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(1).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(2).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(3).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(4).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(5).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(6).jpg" width="50%"> |
-| Screenshot 7 | Screenshot 8 | Screenshot 9 | Screenshot 10 | Screenshot 11 | Screenshot 12 |
-| <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(7).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(8).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(9).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(10).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(11).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(12).jpg" width="50%"> |
-| Screenshot 13 | Screenshot 14 | Screenshot 15 | Screenshot 16 | Screenshot 17 | Screenshot 18 |
-| <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(13).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(14).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(15).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(16).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(17).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(18).jpg" width="50%"> | 
-| Screenshot 19 | Screenshot 20 | Screenshot 21 | Screenshot 22 | Screenshot 23 | Screenshot 24 |
-| <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(19).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(20).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(21).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(22).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(23).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(24).jpg" width="50%"> |
-| Screenshot 25 | Screenshot 26 | Screenshot 27 | Screenshot 28 |
-| <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(25).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(26).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(27).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(28).jpg" width="50%"> |
-
 
 
 ## Technologies Used
@@ -68,4 +52,53 @@ This project is released under the [MIT License].
 ## Contact
 
 For any questions or suggestions, feel free to contact the project owner at resultanalysisapp@gmail.com.
+
+
+
+## Screenshots
+Here are some screenshots of the project:
+
+| Screenshot 1 | Screenshot 2 | Screenshot 3 | Screenshot 4 | Screenshot 5 | Screenshot 6 |
+|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+| <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(1).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(2).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(3).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(4).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(5).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(6).jpg" width="50%"> |
+| Screenshot 7 | Screenshot 8 | Screenshot 9 | Screenshot 10 | Screenshot 11 | Screenshot 12 |
+| <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(7).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(8).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(9).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(10).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(11).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(12).jpg" width="50%"> |
+| Screenshot 13 | Screenshot 14 | Screenshot 15 | Screenshot 16 | Screenshot 17 | Screenshot 18 |
+| <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(13).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(14).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(15).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(16).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(17).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(18).jpg" width="50%"> | 
+| Screenshot 19 | Screenshot 20 | Screenshot 21 | Screenshot 22 | Screenshot 23 | Screenshot 24 |
+| <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(19).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(20).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(21).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(22).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(23).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(24).jpg" width="50%"> |
+| Screenshot 25 | Screenshot 26 | Screenshot 27 | Screenshot 28 |
+| <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(25).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(26).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(27).jpg" width="50%"> | <img src="https://github.com/BluHunt/Result-Analysis-Application/raw/main/screenshots/Screenshot%20(28).jpg" width="50%"> |
+
+
+## Detailed Screenshots
+
+![CD.jpg](https://github.com/BluHunt/Result-Analysis-Application/raw/main/detailed%20screenshot/CD.jpg) |
+|:--:|
+|Context Diagram|
+
+| ![LEVEL 1.jpg](https://github.com/BluHunt/Result-Analysis-Application/raw/main/detailed%20screenshot/LEVEL%201.jpg) | ![LEVEL 2.jpg](https://github.com/BluHunt/Result-Analysis-Application/raw/main/detailed%20screenshot/LEVEL%202.jpg) |
+|:--:|:--:|
+| LEVEL 1 | LEVEL 2|
+
+
+| ![HOME STRUCT.jpg](https://github.com/BluHunt/Result-Analysis-Application/raw/main/detailed%20screenshot/HOME%20STRUCT.jpg) | ![HOME.jpg](https://github.com/BluHunt/Result-Analysis-Application/raw/main/detailed%20screenshot/HOME.jpg) |
+|:--:|:--:|
+| HOME STRUCTURE| HOME |
+
+| ![PROFILE STRUCT.jpg](https://github.com/BluHunt/Result-Analysis-Application/raw/main/detailed%20screenshot/PROFILE.%20STRUCTjpg.jpg) | ![PROFILE.jpg](https://github.com/BluHunt/Result-Analysis-Application/raw/main/detailed%20screenshot/PROFILE.jpg) |
+|:--:|:--:|
+| PROFILE STRUCTURE| PROFILE |
+
+| ![STUDENT STRUCT.jpg](https://github.com/BluHunt/Result-Analysis-Application/raw/main/detailed%20screenshot/STUDENT%20STRUCT.jpg) | ![STUDENT.jpg](https://github.com/BluHunt/Result-Analysis-Application/raw/main/detailed%20screenshot/STUDENT.jpg) |
+|:--:|:--:|
+| STUDENT STRUCTURE| STUDENT |
+
+| ![SUBJECT STRUCT.jpg](https://github.com/BluHunt/Result-Analysis-Application/raw/main/detailed%20screenshot/SUBJECT%20STRUCT.jpg) | ![SUBJECT.jpg](https://github.com/BluHunt/Result-Analysis-Application/raw/main/detailed%20screenshot/SUBJECT.jpg) |
+|:--:|:--:|
+| SUBJECT STRUCTURE| SUBJECT |
+
+| ![USERS STRUCT.jpg](https://github.com/BluHunt/Result-Analysis-Application/raw/main/detailed%20screenshot/USERS%20STRUCT.jpg) | ![USERS.jpg](https://github.com/BluHunt/Result-Analysis-Application/raw/main/detailed%20screenshot/USERS.jpg) |
+|:--:|:--:|
+| USERS STRUCTURE | USERS |
 
